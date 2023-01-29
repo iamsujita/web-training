@@ -1,0 +1,73 @@
+* {
+    color:rosybrown;
+}
+
+/** elements selector **/
+
+h1 {
+    color: antiquewhite;
+}
+
+/**
+class indicator **/
+
+.blue
+     {color: blue;}
+
+     **/
+     #bit {
+        color: brown;
+     }
+    /**
+    grouping selector**/
+
+    .success,.error{
+        color: black;
+    }
+
+
+    .message {
+        font-family: 'Times New Roman', Times, serif;
+        color: black;    
+    }
+    .success{
+        background-color:blueviolet;
+    }
+    .error{
+        background-color: aquamarine;
+    }
+    /**
+    chaining selector**/
+    .message.success{
+        background-color:burlywood;
+    }
+
+    .message {
+        background: orange;
+        font-family: 'Lora', serif;
+        font-weight:bold;
+        text-transform: lowercase;
+        text-align: center;
+    }
+    img{
+        width: 400;
+        height: 500;
+    }
+
+    .center{
+        text-align: center;
+
+    }
+    body{
+        background-color: beige;
+        background-image: url('https://picsum.photos/1024/790');
+        background-size:contain;
+        background-repeat: repeat-y;
+        background-position: center;
+        background-image: -moz-linear-gradient();
+        background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+    }
+
