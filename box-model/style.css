@@ -1,0 +1,38 @@
+/*p
+{
+    background-color : peachpuff;
+    border: 10px solid palegreen;
+    padding: 20px 20px 20px 10px;
+    margin:40px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.a{
+
+    background-color: brown;
+    margin:100px;
+    padding:20px 20px 20px 20px;
+    borde:20px solid red;
+
+
+}*/
+body{
+    background-color:#eee;
+}
+.card{
+    width=30px;
+    background-color:peachpuff;
+    margin:60px;
+}
+.card-image{
+    height:100%
+    width:300%
+}
+.card-image img{
+    width:10%;
+    height:10%;
+
+}
+.card details{
+    padding:0px 0px 20px 20px;
+}
