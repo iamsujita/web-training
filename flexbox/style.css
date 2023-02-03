@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: #fff;
+    background-color: #5995da;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+.hero-container{
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    width: 900px;
+    height: 200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mess{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+.cold{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.one{
+    width: 300px;
+    height: 300px;
+  }
