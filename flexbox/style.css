@@ -13,7 +13,7 @@ header{
 
 }
 .menu{
-    width: 600px;
+    width: 900px;
     display: flex;
     justify-content: space-between;
 }
@@ -35,18 +35,18 @@ header{
 
 }
 .mess{
-  background-color: papayawhip;
-  display: flex;
-  justify-content: center;
-}
-
-.cold{
-  width: 900px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.one{
-    width: 300px;
-    height: 300px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
   }
+  
+  .cold{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .one{
+      width: 300px;
+      height: 300px;
+    }
