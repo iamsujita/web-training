@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'poppins';
+}
+.container{
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 50px;
+    gap: 50px;
+}
+.left-side{
+    color: white;
+}
+ .left-side, .right-side{
+    width: 50%;
+}
+.left-side h1{
+    font-size: 40px;
+}
+.right-side>.message{
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 14px;
+    color: white;
+}
+form{
+    padding: 30px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+.input-group{
+    width: 100%;
+    margin-top: 20px;
+}
+.input-group input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid hsl(249, 10%, 26%) ;
+}
+input:active,
+input:focus{
+   outline:1px solid hsl(248, 32%, 49%);
+}
+input::placeholder{
+    font-size: 15px;
+    font-family: 'poppins';
+}
+.input-group .message{
+    color: hsl(0, 100%, 74%) ;
+    font-size: 14px;
+    display: none;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-family: 'poppins';
+    margin-top: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 3px;
+    font-weight: 500;
+    box-shadow:inset 0px -5px 0px 0px rgba(0,0,0,0.1);
+}
+.right-side > .message{
+    font-size: 14px;
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    margin-top: 10px;
+}
+form > .message{
+    color: hsl(246, 25%, 77%);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+form>.message a{
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;  
+}
+.input-group.error input{
+    border: 1px solid hsl(0, 100%, 74%);
+}
+.input-group.error::placeholder{
+    color: hsl(0, 100%, 74%);
+}
+.input-group.error .message{
+    display: block;
+}
